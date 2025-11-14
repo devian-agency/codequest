@@ -1,0 +1,73 @@
+@import "./fonts.css";
+@import "tailwindcss";
+
+:root {
+  --background: #111;
+  --foreground: #151515;
+  --text: #e0e0e0;
+  
+  --primary: #eea15e;
+  --primary-hover: #e5944d;
+  
+  --sucess: #4caf50;
+  --sucess-hover: #43a047;
+
+  --error: #f44336;
+  --error-hover: #e53935;
+
+  --warning: #ff9800;
+  --warning-hover: #fb8c00;
+
+  --info: #2196f3;
+  --info-hover: #1e88e5;
+
+  --border: #0a0a0a;
+  --border-radius: 8px;
+
+  --card: #1f1f1f;
+  --card-hover: #0a0a0a;
+  --card-foreground: #1a1a1a;
+  --card-foreground-hover: #0a0a0a;
+  
+  --shadow: rgba(0, 0, 0, 0.4);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-text: var(--text);
+  
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  
+  --color-sucess: var(--sucess);
+  --color-sucess-hover: var(--sucess-hover);
+
+  --color-error: var(--error);
+  --color-error-hover: var(--error-hover);
+
+  --color-warning: var(--warning);
+  --color-warning-hover: var(--warning-hover);
+
+  --color-info: var(--info);
+  --color-info-hover: var(--info-hover);
+
+  --color-border: var(--border);
+  --radius-border: var(--border-radius);
+  
+  --color-card: var(--card);
+  --color-card-hover: var(--card-hover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card-foreground-hover: var(--card-foreground-hover);
+  
+  --color-shadow: var(--shadow);
+
+
+  --font-instrument-sans: 'Instrument Sans', sans-serif;
+  --font-outfit: 'Outfit', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+}
+
+*{
+  @apply transition-colors duration-300;
+}
