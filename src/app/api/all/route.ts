@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import axios from "axios";
 import { shuffle } from "@/components/shuffle";
 
-const url = "http://localhost:3000";
+const url = "https://codequest.devian.in";
 
 export async function GET(req: NextRequest) {
   try{
